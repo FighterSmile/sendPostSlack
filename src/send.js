@@ -1,7 +1,7 @@
 const dotenv = require("dotenv");
 dotenv.config();
-import { WebClient } from "@slack/web-api";
-import { replateID } from "./utils";
+const { WebClient } = require("@slack/web-api");
+const { replateID } = require("./utils");
 const fs = require("fs");
 const path = `${__dirname}/../media`;
 
