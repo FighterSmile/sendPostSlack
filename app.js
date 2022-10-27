@@ -23,7 +23,7 @@ rtm.on("ready", async () => {
     
     // postMessageFile("bot.png","testing","U02QYT47LG7,U02GE8J1QMV,U03K0T65R5L","Hola")
     // postMessageFileSpam("bot.png", "testing")
-    postMessageFile("Diwali.png", "HappyDiwali", "C034YEBPBB4")
+    postMessageFile("15five.gif", "HappyDiwali", "C0492NZPJ72")
 
     rtm.disconnect();
   } catch (err) {
