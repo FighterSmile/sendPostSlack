@@ -1,5 +1,4 @@
-const dotenv = require("dotenv");
-dotenv.config();
+require("dotenv").config();
 
 const { RTMClient } = require("@slack/rtm-api");
 
@@ -21,8 +20,11 @@ rtm.on("ready", async () => {
   console.log("Bot started");
   try {
     // AQUI ES DONDE TIENES QUE MODIFICAR LAS FUNCIONES
-    await postMessageFileSpam("Peach.png", "Peach");
-    //
+    
+    // postMessageFile("bot.png","testing","U02QYT47LG7,U02GE8J1QMV,U03K0T65R5L","Hola")
+    // postMessageFileSpam("bot.png", "testing")
+    postMessageFile("Diwali.png", "HappyDiwali", "C034YEBPBB4")
+
     rtm.disconnect();
   } catch (err) {
     console.log("An error occurred and messages could not be sent");

@@ -1,13 +1,13 @@
-const replateID = (id) => {
-  let message = `
-Hi esto es una prueba 
-<@U02L2JGLFEF>
-<@U027J66FS80>
-
-<https://ontopai.slack.com/archives/C017LFPA0A1/p1658235603088639|Click Here>
-`;
+const templateMsg = () => {
   // Hasta aqui llega el mensaje
+
+  let message = `
+Hey Ontoopers :star2:
+
+Wish you all a very happy Diwali :rosette: and hope that every person tranforms from the darkness to happiness. :candle:
+`;
   return message;
 };
 
-module.exports = { replateID };
+
+module.exports = { templateMsg};
