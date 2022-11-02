@@ -1,5 +1,5 @@
 const { WebClient } = require("@slack/web-api");
-const { templateMsg } = require("./utils");
+const { templateMsg } = require("./message");
 const fs = require("fs");
 const path = `${__dirname}/../media`;
 
